@@ -1,8 +1,10 @@
 import react from "react";
+import AboutSection from "./components/AboutSection";
+import AboutUs from "./pages/AboutUs";
 function App() {
   return (
     <div className="App">
-      <h1>Film</h1>
+      <AboutUs />
     </div>
   );
 }
